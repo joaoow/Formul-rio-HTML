@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="GET" id="contato" action="obrigado.html">
+            
+
+        <fieldset id="identidade">
+            <details open>
+                <summary>Formulario</summary>
+                
+            
+
+            <!--legend é um titulo do formulario-->
+            <legend>Dados simples</legend>
+
+
+
+            <!--label é uma caixa de texto onde o usuario vai digitar algo em uma caixa de texto-->
+            <p><label for="nome">Nome:</label>
+                <input type="text" name="nome"
+                       id="nome" size ="50" maxlength="100" placeholder="Digite seu nome completo"
+                       /></p>
+
+            <!--placeholder significa um marcador na caixa de texto por exemplo "digite aqui"-->
+            <p><label for="endereço">Endereço:</label>
+                <input type="text" name="endereço" id= "endereço" size ="50" maxlength="60" 
+                       placeholder="digite seu endereço"/></p>
+            
+            <p><label for="endereço">CEP:</label>
+                <input type="text" name="CEP" id= "cep" size ="50" maxlength="9" 
+                       placeholder="XXXXX-XXX"/></p>
+
+            <p><label for="emial">E-mail:</label>
+                <input type="text" name="email" id= "email" size ="50" maxlength="60" 
+                       placeholder="digite seu email"/></p>
+
+            <p><label for="endereço">Telefone:</label>
+                <input type="text" name="telefone" id= "telefone" size ="50" maxlength="40" 
+                       placeholder="(XX) XXXXXXXXX"/></p>
+            
+<!--              botão de enviar ou cadastrar-->
+        <input type="submit" value="Enviar" />
+        
+        </fieldset>
+        </form>
+    
+</html>
